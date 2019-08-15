@@ -12,10 +12,10 @@ app.use(bodyParser.json())
 
 function HanaDB() {
 	var client = hdb.createClient({
-		host: 'szidh1d.pfizer.com',
+		host: '',
 		port: 30015,
-		user: 'GUNAWF01',
-		password: 'Pfizer47'
+		user: '',
+		password: ''
 	});
 	client.on('error', function(err) {
 		console.error('Network connection error', err);
